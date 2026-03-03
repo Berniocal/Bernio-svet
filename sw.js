@@ -1,7 +1,7 @@
 /* Bernio svět – service worker (offline pro rozcestník).
    Pozn.: Tento SW se vztahuje jen na složku, kde je Bernio svět nasazen (scope).
    Pokud chceš řídit i ostatní cesty, muselo by to být nasazené u kořene webu. */
-const CACHE = "bernio-svet-v1";
+const CACHE = "bernio-svet-v2";
 const PRECACHE = [
   "./",
   "./index.html",
